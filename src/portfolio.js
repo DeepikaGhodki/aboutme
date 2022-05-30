@@ -1,6 +1,6 @@
 /* Change this file to get your personal Portfolio */
 
-// To change portfolio colors globally go to the  _globalColor.scss file //todo 
+// To change portfolio colors globally go to the  _globalColor.scss file //todo
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
@@ -45,11 +45,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I'm a software engineer with 4+ years of experience in building scalable, robust, and highly available systems, with a special focus on product-oriented projects",
+  subTitle:
+    "I'm a software engineer with 4+ years of experience in building scalable, robust, and highly available systems, with a special focus on product-oriented projects",
   skills: [
-    emoji(
-      "⚡ Develop scalable and user-friendly applications"
-    ),
+    emoji("⚡ Develop scalable and user-friendly applications"),
     emoji("⚡ Design multi level systems")
   ],
 
@@ -122,7 +121,7 @@ const educationInfo = {
       schoolName: "University at Buffalo",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "August 2021 - December 2022",
+      duration: "August 2021 - December 2022"
     },
     {
       schoolName: "BITS Pilani",
@@ -277,7 +276,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -288,7 +287,7 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-//Artwork Section 
+//Artwork Section
 //Include instagram posts
 const artworkSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -334,7 +333,7 @@ const artworkSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -402,8 +401,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Want to collaborate or just say hi?",
+  subtitle: "Want to collaborate or just say hi?",
   // number: "+92-0000000000",
   email_address: "deepikaghodki@gmail.com"
 };
