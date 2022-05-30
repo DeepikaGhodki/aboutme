@@ -1,6 +1,6 @@
 {
-  "homepage": "https://deepikaghodki.github.io",
-  "name": "developerfolio",
+  "homepage": "https://deepikaghodki.github.io/aboutme",
+  "name": "aboutme",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
