@@ -34,9 +34,10 @@ const socialMediaLinks = {
   github: "https://github.com/DeepikaGhodki",
   linkedin: "https://www.linkedin.com/in/deepikaghodki/",
   gmail: "deepikaghodki@gmail.com",
-  medium: "https://medium.com/@saadpasta",
+  medium: "https://medium.com/@deepika65",
   instagram: "https://www.instagram.com/justsparetimethings/",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  //todo - flicker
+  //todo - behance?
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -119,17 +120,21 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University at Buffalo",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/ubLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "August 2021 - December 2022"
+      duration: "August 2021 - December 2022",
+      desc: "Learnt about the building blocks of computer science with courses around Data Structures, Operating Systems, Databases, Distributed Systems ",
+      descBullets: ["A fully distributed app scaled with Docker",
+        "OneDataShare: A Managed File Transfer system to enhance and improve high-volume data sharing across different protocols."]
     },
     {
       schoolName: "BITS Pilani",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/bitsLogo.png"),
       subHeader: "Bachelor of Engineering in Electronics & Instrumentation",
       duration: "August 2012 - May 2016",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Tried to survive and practiced design & development on the side ",
+      descBullets: ["Dabbled in web development and made a website for an inter-hostel festival using JSP",
+        "Took a sneak peak in the world of Android by building a noob android game that counts how fast can you click a moving button"]
     }
   ]
 };
@@ -162,28 +167,35 @@ const workExperiences = {
   experience: [
     {
       role: "Senior Software Engineer",
-      company: "Myntra",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      company: "Myntra (Walmart Group)",
+      companylogo: require("./assets/images/walmartLogo.png"),
       date: "Mar 2019 – Jul 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Developed a distributed application for onboarding and cataloging products for Myntra’s marketplace model accounting for ~70% of cataloging using Spring Statemachine framework and ReactJS",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
       role: "Software Engineer",
       company: "Myntra",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/myntra.svg"),
       date: "Jul 2016 – Feb 2019",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Optimized the product search experience by improving the query time by 88% using Solr search platform, ensuring 99% availability using Solr Cloud and scaling the system to handle 25k request per minute"
     },
     {
       role: "Software Development Intern",
       company: "Myntra",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/myntra.svg"),
       date: "Jul 2015 – Dec 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Developed RESTful multi-tenant web application for creating and modifying product information with MongoDB as datastore and ReactJS for user interface; adopted by a team of 500+ members for daily cataloguing"
+    },
+    {
+      role: "D&A Intern",
+      company: "Kitware Inc",
+      companylogo: require("./assets/images/kitware.png"),
+      date: "May 2022 – Aug 2022",
+      desc: "Contributed to open source projects revolving around building data archives in nueroscience and microbiome domain"
     }
   ]
 };
@@ -276,7 +288,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -333,7 +345,7 @@ const artworkSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
