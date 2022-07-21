@@ -20,7 +20,7 @@ export default function GithubProfileCard({prof}) {
             <div className="blog-header">
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
-            <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
+            <h2 className="bio-text">"{emoji(String(prof.bio))}This is my bio"</h2>
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">
@@ -43,7 +43,7 @@ export default function GithubProfileCard({prof}) {
             )}
             <div className="opp-div">
               <span className="desc-prof">
-                Open for opportunities: {prof.hireable}
+                <! -- Open for opportunities: {prof.hireable} -- >
               </span>
             </div>
             <SocialMedia />
