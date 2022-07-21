@@ -124,8 +124,10 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "August 2021 - December 2022",
       desc: "Learnt about the building blocks of computer science with courses around Data Structures, Operating Systems, Databases, Distributed Systems ",
-      descBullets: ["A fully distributed app scaled with Docker",
-        "OneDataShare: A Managed File Transfer system to enhance and improve high-volume data sharing across different protocols."]
+      descBullets: [
+        "A fully distributed app scaled with Docker",
+        "OneDataShare: A Managed File Transfer system to enhance and improve high-volume data sharing across different protocols."
+      ]
     },
     {
       schoolName: "BITS Pilani",
@@ -133,8 +135,10 @@ const educationInfo = {
       subHeader: "Bachelor of Engineering in Electronics & Instrumentation",
       duration: "August 2012 - May 2016",
       desc: "Tried to survive and practiced design & development on the side ",
-      descBullets: ["Dabbled in web development and made a website for an inter-hostel festival using JSP",
-        "Took a sneak peak in the world of Android by building a noob android game that counts how fast can you click a moving button"]
+      descBullets: [
+        "Dabbled in web development and made a website for an inter-hostel festival using JSP",
+        "Took a sneak peak in the world of Android by building a noob android game that counts how fast can you click a moving button"
+      ]
     }
   ]
 };
@@ -170,7 +174,7 @@ const workExperiences = {
       company: "Myntra (Walmart Group)",
       companylogo: require("./assets/images/walmartLogo.png"),
       date: "Mar 2019 – Jul 2021",
-      desc: "Developed a distributed application for onboarding and cataloging products for Myntra’s marketplace model accounting for ~70% of cataloging using Spring Statemachine framework and ReactJS",
+      desc: "Developed a distributed application for onboarding and cataloging products for Myntra’s marketplace model accounting for ~70% of cataloging using Spring Statemachine framework and ReactJS"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -188,7 +192,7 @@ const workExperiences = {
       company: "Myntra",
       companylogo: require("./assets/images/myntra.svg"),
       date: "Jul 2015 – Dec 2015",
-      desc: "Developed RESTful multi-tenant web application for creating and modifying product information with MongoDB as datastore and ReactJS for user interface; adopted by a team of 500+ members for daily cataloguing"
+      desc: "Developed RESTful multi-tenant web application for creating and modifying product information with MongoDB as datastorenp and ReactJS for user interface; adopted by a team of 500+ members for daily cataloguing"
     },
     {
       role: "D&A Intern",
@@ -288,7 +292,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -345,7 +349,7 @@ const artworkSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
