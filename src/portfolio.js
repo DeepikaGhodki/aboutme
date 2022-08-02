@@ -407,8 +407,6 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
   twitterDetails,
   artworkSection
