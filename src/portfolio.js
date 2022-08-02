@@ -36,6 +36,7 @@ const socialMediaLinks = {
   gmail: "deepikaghodki@gmail.com",
   medium: "https://medium.com/@deepika65",
   instagram: "https://www.instagram.com/justsparetimethings/",
+  goodreads: "https://www.goodreads.com/user/show/59230030-deepika-ghodki",
   //todo - flicker
   //todo - behance?
   // To customize icons and social links, tweak src/components/SocialMedia

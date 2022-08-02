@@ -127,6 +127,17 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+          {socialMediaLinks.goodreads ? (
+        <a
+          href={socialMediaLinks.goodreads}
+          className="icon-button goodreads"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-goodreads"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }
