@@ -127,7 +127,8 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-          {socialMediaLinks.goodreads ? (
+
+      {socialMediaLinks.goodreads ? (
         <a
           href={socialMediaLinks.goodreads}
           className="icon-button goodreads"
